@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>gaming</title>
+	<atom:link href="http://localhost/wordpress/wordpress/tag/gaming/feed/" rel="self" type="application/rss+xml" />
+	<link>https://dangnhuthao1409.github.io/hawysmusic</link>
+	<description></description>
+	<lastBuildDate>Thu, 20 May 2021 10:00:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>WE ARE VALORANT</title>
+		<link>https://dangnhuthao1409.github.io/hawysmusic/test-bai-tap/we-are-valorant/</link>
+					<comments>https://dangnhuthao1409.github.io/hawysmusic/test-bai-tap/we-are-valorant/#respond</comments>
+		
+		<dc:creator><![CDATA[dangnhuthao]]></dc:creator>
+		<pubDate>Thu, 20 May 2021 10:00:25 +0000</pubDate>
+				<category><![CDATA[IMPROVING THE DEVELOPER EXPERIENCE FOR OPERATING SERVICES]]></category>
+		<category><![CDATA[gaming]]></category>
+		<category><![CDATA[VALORANT]]></category>
+		<guid isPermaLink="false">https://dangnhuthao1409.github.io/hawysmusic/?p=20</guid>
+
+					<description><![CDATA[DEFY THE LIMITS Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And,<p class="more-link"><a href="https://dangnhuthao1409.github.io/hawysmusic/test-bai-tap/we-are-valorant/" class="readmore">Continue reading<span class="screen-reader-text">WE ARE VALORANT</span></a></p>]]></description>
+										<content:encoded><![CDATA[
+<h5>DEFY THE LIMITS</h5>
+
+
+
+<p>Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you&#8217;ll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush.Watch the gameplay trailer here.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Episode 1: IGNITION // Official Launch Gameplay Trailer - VALORANT" width="920" height="518" src="https://www.youtube.com/embed/IhhjcB2ZjIM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h2>YOUR AGENTS</h2>
+
+
+
+<h5>CREATIVITY IS YOUR GREATEST WEAPON.</h5>
+
+
+
+<p>More than guns and bullets, you’ll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine. No two Agents play alike, just as no two highlight reels will look the same.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://dangnhuthao1409.github.io/hawysmusic/test-bai-tap/we-are-valorant/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

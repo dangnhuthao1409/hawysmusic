@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>#valorant</title>
+	<atom:link href="http://localhost/wordpress/wordpress/tag/valorant/feed/" rel="self" type="application/rss+xml" />
+	<link>https://dangnhuthao1409.github.io/hawysmusic</link>
+	<description></description>
+	<lastBuildDate>Thu, 20 May 2021 09:36:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>IMPROVING THE DEVELOPER EXPERIENCE FOR OPERATING SERVICES</title>
+		<link>https://dangnhuthao1409.github.io/hawysmusic/test-bai-tap/improving-the-developer/</link>
+					<comments>https://dangnhuthao1409.github.io/hawysmusic/test-bai-tap/improving-the-developer/#comments</comments>
+		
+		<dc:creator><![CDATA[dangnhuthao]]></dc:creator>
+		<pubDate>Thu, 20 May 2021 09:36:15 +0000</pubDate>
+				<category><![CDATA[IMPROVING THE DEVELOPER EXPERIENCE FOR OPERATING SERVICES]]></category>
+		<category><![CDATA[#valorant]]></category>
+		<category><![CDATA[developer]]></category>
+		<guid isPermaLink="false">https://dangnhuthao1409.github.io/hawysmusic/?p=18</guid>
+
+					<description><![CDATA[Hello! I’m James “WxWatch” Glenn and I’m a software engineer on the Riot Developer Experience: Operability (RDX:OP) team. My team focuses on providing tools for Riot engineers and operations teams<p class="more-link"><a href="https://dangnhuthao1409.github.io/hawysmusic/test-bai-tap/improving-the-developer/" class="readmore">Continue reading<span class="screen-reader-text">IMPROVING THE DEVELOPER EXPERIENCE FOR OPERATING SERVICES</span></a></p>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img src="https://technology.riotgames.com/sites/default/files/articles/122/consoleheader.png" alt=""/></figure>
+
+
+
+<p>Hello! I’m James “WxWatch” Glenn and I’m a software engineer on the Riot Developer Experience: Operability (RDX:OP) team. My team focuses on providing tools for Riot engineers and operations teams that help them better understand the state of their live services across the globe.&nbsp;</p>
+
+
+
+<p>Some of these tools include Riot’s service metrics, logging, and alerting pipelines. In this article, I’ll be talking about our one-stop-shop application for Rioters operating services &#8211; Console</p>
+
+
+
+<h1>BEFORE CONSOLE</h1>
+
+
+
+<p>Building Console has allowed us to deprecate and remove many of the standalone custom tools that we discussed in a&nbsp;<a href="https://technology.riotgames.com/news/running-online-services-riot-part-v" target="_blank" rel="noreferrer noopener">previous blog post</a>. But before we get into the details of Console, let’s set the context of this problem space using an example of a troubleshooting experience an engineer would have had using these tools prior to the creation of Console.</p>
+
+
+
+<p>For this example, we’ll use a service my team owns called the “opmon.collector” &#8211;&nbsp; this service is the primary interface that services at Riot use to send logs and metrics to our monitoring platform. The opmon.collector is deployed in datacenters across the globe.</p>
+
+
+
+<p>In this case, an alert triggers for opmon.collector and we need to figure out why. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://technology.riotgames.com/sites/default/files/console1.png" alt=""/></figure>
+
+
+
+<p><em>To view the alert details, we’ll need to open up a browser, navigate to our alerting tool, and enter the service name and location to view the active alerts. From the active alerts, we see an alert saying we’re exceeding our allowed number of API timeouts, so let’s go check the logs to see if we can pinpoint the issue further. </em><br><em>To view the logs, we’ll log in to our monitoring platform log viewer and type in the service name and location, only to discover that there are no logs for this service instance in our monitoring platform! Since the service’s logs are not making it to our monitoring system, we&#8217;ll need to look at the container logs directly. </em><br><em>To do this, we turn to our container visualizer, Toolbox. Inside Toolbox, we once again drill down to the appropriate cluster, find the service and open it up. Looking at container logs, we’re able to see that our issue is that the service is unable to connect to a dependency service. To further diagnose this, we need to look into our service’s network rules.</em><br><em>Navigating to our Network Viewer, we again have to search for the service. Once found we can open up the network rules and, upon inspection, discover that our service is missing a rule to allow it to communicate with a dependency. From here, we can add that rule and resolve the issue. </em><br><em>Great! We were able to use these tools to identify the issue. Each new tool we used, however, required us to reestablish the context of our search, which, in this case, was our service’s name and location. A more subtle inconvenience is that it required us to know the existence of (and have access to) all these tools in order to uncover the cause of our issue. Over time, this adds up to a significant amount of inconvenience, not only day-to-day as an engineer, but for one-time events like onboarding. </em><br><em>ONE CONSOLE TO RULE THEM ALL</em></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://technology.riotgames.com/sites/default/files/console2.png" alt=""/></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://dangnhuthao1409.github.io/hawysmusic/test-bai-tap/improving-the-developer/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
